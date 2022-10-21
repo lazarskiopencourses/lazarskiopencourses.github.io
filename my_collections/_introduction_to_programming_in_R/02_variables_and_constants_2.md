@@ -18,5 +18,5 @@ toc_sticky: true
 ## 2. Exercises
 
 * <a href="https://lazarskiopencourses.github.io/courses/introduction_to_programming_in_R/02_variables_and_constants_2/Exercises/02_variables_and_constants_task_1.Rmd" target="_blank">Exercise 1</a>
-* <a href="https://lazarskiopencourses.github.io/courses/introduction_to_programming_in_R/0_variables_and_constants_2/Exercises/02_variables_and_constants_task_2.Rmd" target="_blank">Exercise 2</a>
+* <a href="https://lazarskiopencourses.github.io/courses/introduction_to_programming_in_R/02_variables_and_constants_2/Exercises/02_variables_and_constants_task_2.Rmd" target="_blank">Exercise 2</a>
 * <a href="https://lazarskiopencourses.github.io/courses/introduction_to_programming_in_R/02_variables_and_constants_2/Exercises/02_variables_and_constants_task_3.Rmd" target="_blank">Exercise 3</a>

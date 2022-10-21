@@ -1,0 +1,24 @@
+---
+title: "02 Variables and constants (part 2) - task 2"
+output: html_document
+---
+
+**Question 2:** Create a dataframe named `data` with the following records:
+* `car` = nissan, audi, bmw
+* `owner` = Jane, John, Hodor
+* `age_person` = 20, 30, 25
+* `age_car` = 10, 2, NA
+* `sex` = f, m, m (as factor)
+* `accident` (whether the car was involved in an accident) = no, yes, no (as boolean)
+
+`car`, `owner`, `age_person`, `age_car`, `sex`, `accident` should be the names of columns.
+
+Create a variable `mean_age_person` with a mean of age of all 3 people.
+
+Create a variable `mean_age_car` with a mean of age of all 3 cars. Omit NA records
+To see an argument you have to specify you can type `?mean` in the console
+
+
+```{r}
+# YOUR CODE HERE
+```

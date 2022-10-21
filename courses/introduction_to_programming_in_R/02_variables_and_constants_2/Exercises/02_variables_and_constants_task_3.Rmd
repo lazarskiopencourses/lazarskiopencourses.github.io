@@ -1,0 +1,28 @@
+---
+title: "02 Variables and constants (part 2) - task 3"
+output: html_document
+---
+
+**Question 3:** 1. Create two data frames `my.df1` and `my.df2` as:
+`my.df1`:
+`1	24`
+`2	32`
+`3	36`
+`4	18`
+
+`my.df2`:
+`1	max`
+`2	woody`
+`3	emily`
+`4	elen`
+`5	john`
+
+with column names: `id` (numeric), `age` (numeric) for `my.df1` and `id` (numeric), `name` (character) for `my.df2`.
+
+Merge `my.df1` and `my.df2` by their `id` column and assign the result to `merged.df` variable. Disregard rows without full information. Type `?merge` in the console for help.
+
+Order whole `merged.df` dataframe by decreasing age. Assign this dataframe to `by_age.df`. Checking `?order` may be useful.
+
+```{r}
+# YOUR CODE HERE
+```
