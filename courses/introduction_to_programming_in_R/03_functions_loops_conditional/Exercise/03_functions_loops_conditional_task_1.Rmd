@@ -1,0 +1,19 @@
+---
+title: "03 Conditional statements, loops and functions - task 1"
+output: html_document
+---
+
+**Question 1:** # Create `NeitherNA()`, a function that takes two vectors of the same length and returns the number of positions that does NOT have an `NA` in ANY vectors.
+
+e.g. funtion, which takes following input vectors
+`c(NA, 1, 2, NA, NA, 1)`
+`c(0, NA, 1, NA, 3, 1)`
+should return 2
+
+`c(2, 1, 2, 4, NA, 1)`
+`c(0, 4, 1, NA, 3, 1)`
+should return 4
+
+```{r}
+# YOUR CODE HERE
+```

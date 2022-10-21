@@ -1,0 +1,21 @@
+---
+title: "02 Variables and constants (part 2) - task 1"
+output: html_document
+---
+
+**Question 1:** Create a matrix named `my_mat`, looking like this:
+`      [,1] [,2] [,3] [,4] [,5]`
+`[1,]    1    2    3    4    5`
+`[2,]    6    7    8    9   10`
+`[3,]   11   12   13   14   15`
+`[4,]   16   17   18   19   20`
+
+Check if created object is a matrix with a `is.matrix()` function and store the result in the `is_mat` variable (boolean value)
+Transpose this matrix and assign it to the variable `t_my_mat`
+Multiply matrix `my_mat` and `t_my_mat` (in this order) and assign the result to the `mult_mat` variable
+Assign a vector (number of rows of `mult_mat`, number of columns of `mult_mat`) to the `my_dims` variable
+
+
+```{r}
+# YOUR CODE HERE
+```
