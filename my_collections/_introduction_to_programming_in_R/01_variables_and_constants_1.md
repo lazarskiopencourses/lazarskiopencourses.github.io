@@ -16,7 +16,7 @@ Welcome! In this course, you will learn the basics of programming in R. As you c
 
 ## 2. Main script
 
-In order to be able to work with this script, you have to download it and open it in RStudio. If you don't have RStudio installed and don't know how to do it, instructions from [this site](https://rstudio-education.github.io/hopr/starting.html) should help. To download a script, you have to click somewhere using right click on the mouse, choose `Save as` and make sure that you are saving the file using the correct extension, which is `.R`.
+In order to be able to work with this script, you have to download it and open it in RStudio. If you don't have RStudio installed and don't know how to do it, instructions from [this site](https://rstudio-education.github.io/hopr/starting.html) should help. To download a script, you have to click on the hyperlinks below. It will be saved either in your default folder with downloaded files or your browser will ask you to pick the place where it will be stored. If something is wrong with it, make sure that the file has been saved using the correct extension, which is `.R`.
 
 * <a href="https://lazarskiopencourses.github.io/courses/introduction_to_programming_in_R/01_variables_and_constants_1/01_variables_and_constants_1.R" download target="_blank">Variables and Constants 1</a>
 
@@ -27,7 +27,7 @@ In order to be able to work with this script, you have to download it and open i
 To solve exercises, you have to download the scripts and write your solution in the `
 ```{r} # YOUR CODE HERE```
 ` chunk. 
-This time, the extension of a file should be `.Rmd`.
+This time, the extension of files should be `.Rmd`.
 
 * <a href="https://lazarskiopencourses.github.io/courses/introduction_to_programming_in_R/01_variables_and_constants_1/Exercises/01_variables_and_constants_task_1.Rmd" download target="_blank">Exercise 1</a>
 * <a href="https://lazarskiopencourses.github.io/courses/introduction_to_programming_in_R/01_variables_and_constants_1/Exercises/01_variables_and_constants_task_2.Rmd" download target="_blank">Exercise 2</a>
