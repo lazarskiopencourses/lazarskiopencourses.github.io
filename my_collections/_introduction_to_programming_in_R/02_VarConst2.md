@@ -47,7 +47,7 @@ There will be times when you will want to work with your data organized into a m
 ---
 ---
 
-## 3.1. Creating matrix
+## 3.1. Creating matrices
 
 There are different ways to create the matrix. One way is to combine vectors into a matrix. Let's create a few vectors - `vec1`, `vec2`, and `vec3`.
 ```R
@@ -113,7 +113,7 @@ Lists in R are similar to vectors, but elements of a list can be of different ty
 
 ---
 
-## 4.1. Creating list
+## 4.1. Creating lists
 One can create a list with the `list()` function, where as arguments one can put objects that the list will consist of.
 For example,
 ```R
@@ -176,7 +176,7 @@ Data Frames are data displayed in a format like a table (similar to an ordinary 
 
 ---
 
-## 5.1. Creating dataframe
+## 5.1. Creating dataframes
 We can start with our matrix `mat1` and create a data frame with `as.data.frame()` function, which can take the matrix as an input. Next, combine the output with the `vec_char`.
 ```R
 df0 <- as.data.frame(mat2)
