@@ -47,7 +47,7 @@ There will be times when you will want to work with your data organized into a m
 ---
 ---
 
-### 3.1. Creating matrix
+## 3.1. Creating matrix
 
 There are different ways to create the matrix. One way is to combine vectors into a matrix. Let's create a few vectors - `vec1`, `vec2`, and `vec3`.
 ```R
@@ -77,7 +77,7 @@ The data items in both matrices are the same. The main difference between how th
 
 ---
 
-### 3.2. Indexing matrices
+## 3.2. Indexing matrices
 
 You can access the elements of a matrix using indexing. Matrix indexes are quite similar to vector indexes. The only difference is that there are two dimensions instead of one. You now have to identify both the row and the column index. For instance, the code `mat1[3, 1]` will return the value stored in the 3rd row of the 1st column of `mat1`.
 
@@ -108,12 +108,12 @@ print(mat1 * 3)
 ---
 ---
 
-## 4. Lists
+# 4. Lists
 Lists in R are similar to vectors, but elements of a list can be of different types and different lengths e.g. another list could be an element of a list.
 
 ---
 
-### 4.1. Creating list
+## 4.1. Creating list
 One can create a list with the `list()` function, where as arguments one can put objects that the list will consist of.
 For example,
 ```R
@@ -125,7 +125,7 @@ In this way, we have created a list that consists of five elements. The 1st and 
 
 ---
 
-### 4.2. Indexing lists
+## 4.2. Indexing lists
 To access any element of a list we can use `[]` (as with vectors). As an example, `my_list[3]` will return the 3rd element of this list.
 ```R
 print(my_list[3])
@@ -150,7 +150,7 @@ print(my_list[[3]][2])
 ---
 ---
 
-## 5. Dataframes
+# 5. Dataframes
 As you probably remember, this section began by describing an R matrix as an `M x N` collection of data items of the *same* data type. This means that we can't combine vectors of different types into the matrix. Let's see how our matrix `mat2` looked like.
 ```R
 print(mat2)
@@ -176,7 +176,7 @@ Data Frames are data displayed in a format like a table (similar to an ordinary 
 
 ---
 
-### 5.1. Creating dataframe
+## 5.1. Creating dataframe
 We can start with our matrix `mat1` and create a data frame with `as.data.frame()` function, which can take the matrix as an input. Next, combine the output with the `vec_char`.
 ```R
 df0 <- as.data.frame(mat2)
@@ -207,7 +207,7 @@ print(food.df)
 
 ---
 
-### 5.2. Accessing dataframe elements
+## 5.2. Accessing dataframe elements
 As we spoke, to access a certain column in dataframe we can use the `$` operator. However, we can also use old-fashioned brackets `[]` to extract rows and/or columns based on their indexes (as in matrices).
 ```R
 print(food.df$meal)
@@ -218,12 +218,12 @@ You should now have a rough idea of how vectors, matrices, and data frames work 
 
 ---
 
-### 5.3. Off-topic about names
+## 5.3. Off-topic about names
 In R, it’s common to use periods in variable names like `my.df` (but not necessarily). There are many syntax differences between R and Python, but you should remember — periods are an operator in Python, so don’t use them in names! The convention in Python is to use underscores, as in `my_list`. In R it's a free-for-all, basically.
 
 ---
 
-### 5.4. Factors
+## 5.4. Factors
 Factors are the data objects which are used to categorize the data and store it as levels. They can store both strings and integers. They are useful in columns that have a limited number of unique values. Like `"Male"`, `"Female"` and `"north"`, `"south"`, etc. They are useful in data analysis for statistical modeling, since categorical variables enter into statistical models differently than continuous variables, storing data as factors ensures that the modeling functions will treat such data correctly.
 
 Let's create a vector `days` that is describing days of the week (e.g. of the occurence of some event). To check if the given object is a factor we have used `is.factor()` function. Vector `days` is a plain vector, not a factor, so this function returned `FALSE`.
