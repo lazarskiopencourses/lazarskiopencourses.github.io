@@ -5,7 +5,7 @@
 
 ##### OBJECTS ##### (continuation)
 
-## matrices
+### matrices
 ?matrix
 m1 <- matrix(data = 1:100, nrow = 10, ncol =  10, byrow = TRUE)
 m1
@@ -68,17 +68,6 @@ my_list$three # no '' here
 
 
 ### dataframes
-# Data Frames are data displayed in a format like a table. (similar to an ordinary excel table)
-# Data Frames are similar to matrices however, they can have different types of data inside them, whereas
-# matrices can have only numeric values
-# So, for instance, while the first column can be character, the second and third can be numeric or logical.
-# However, each column should have the same type of data.
-
-# To summarize in a few points:
-# The column names should be non-empty.
-# The row names should be unique.
-# The data stored in a data frame can be of numeric, factor, or character type.
-# Each column should contain the same number of data items.
 
 friends.df <- data.frame(
   id = c(1:5), 
@@ -140,19 +129,8 @@ friends_new.df <- rbind(friends.df, data.frame(id=6, name='Phoebe', salary='654.
 friends_new.df
 # here we are creating a new dataframe (with only one row) add we are combining it by rows with friends.df
 
-### off-topic
-# In R, it’s common to use periods in variable names like my.df (but not necessarily)
-# There are many syntax differences between R and Python, but you should remember
-# — periods are an operator in Python, so don’t use them in names!
-# The convention in Python is to use underscores, as in my_list.
-# In R it's a free-for-all, basically.
-
 
 ### factors
-# Factors are the data objects which are used to categorize the data and store it as levels.
-# They can store both strings and integers. They are useful in the columns that
-# have a limited number of unique values. Like "Male", "Female" and True, False, etc.
-# They are useful in data analysis for statistical modeling.
 
 # Let's look at our dataset
 friends_new.df
