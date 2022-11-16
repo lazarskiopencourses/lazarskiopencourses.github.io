@@ -395,7 +395,7 @@ Sample `fib(n)` call:
 
     fib(6)
 output:
-    (8, 13) 
+    (8, 25) 
 
 ## 8. Appendix
 ### 8.1. Syntactic Sugar in Python

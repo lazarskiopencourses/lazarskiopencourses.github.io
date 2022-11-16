@@ -10,7 +10,7 @@ toc_sticky: true
 
 ## 1. Introduction
 
-Welcome! In this course, you will learn the basics of programming in Python. As you can see in the table of contents, the course is divided into 6 modules. Each module contains a main notebook, as well as several videos. Videos are combined into playlists. To find and extend it, you have to click on the upper right corner of the frame with the first video. The amount of work required for each notebook should be roughly the same. In the videos one of the course instructors goes through the main notebook in a thorough manner. Sometimes extra examples are provided. 
+Welcome! In this course, you will learn the basics of programming in Python. As you could have seen one page before, the course is divided into 6 modules. Each module contains a main notebook, as well as several videos. Videos are combined into playlists. To find and extend it, you have to click on the upper right corner of the frame with the first video. The amount of work required for each notebook should be roughly the same. In the videos one of the course instructors goes through the main notebook in a thorough manner. Sometimes extra examples are provided. 
 
 Depending on your preference, you can either watch the videos or read the main notebook by yourself (you can also do both, it is entirely up to you). Aside from the main notebook, each module also has additional notebooks, which contain exercises that should be completed and uploaded to [Gradescope](https://www.gradescope.com/), if you are officially enrolled in the course.
 
