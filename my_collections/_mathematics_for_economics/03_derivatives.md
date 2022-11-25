@@ -10,8 +10,6 @@ toc_sticky: true
 
 Exercises for this chapter: <a href="https://lazarskiopencourses.github.io/courses/mathematics_for_data_science/derivatives.pdf" target="_blank">PDF.</a>
 
-A pdf file with all exercises can be found [here](https://github.com/lazarskiopencourses/lazarskiopencourses.github.io/blob/master/courses/mathematics_for_economics/exercises.pdf)).
-
 # One variable derivatives
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/?playlist=tj-zQ9cklcg,EV7GcicnTlk,Mz_aeQqxDTc,HPsC9Ytfr64,4YzMHyBnXsU,CQwnuzLxnMs,tjMh5Pl6sFI,D9Oli4NXHuM,2v2lfRXZWJ0,1I7x9KE6Cyo,Rn7q5SPLyTo,_I49T7gJPVo,_8hz4ZBCG5w,mQrHRCGpTo8,5Sh1fEz-J3c,d4cEzzJ5uTQ,TcUj_jyGAz8,8OTRR5PVWVo," title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
