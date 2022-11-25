@@ -29,8 +29,8 @@ Welcome! In this course, you will learn the basics of programming in R. As you c
 
 In order to be able to work with these files, you have to download it and open it in RStudio. If you don't have RStudio installed and don't know how to do it, instructions from [this site](https://rstudio-education.github.io/hopr/starting.html) should help. To download a script, you have to click on the hyperlinks below. It will be saved either in your default folder with downloaded files or your browser will ask you to pick the place where it will be stored. If something is wrong with it, make sure that the file has been saved using the correct extension, which is either `.R` or `.Rmd`, depending on what you have chosen.
 
-* <a href="{{ site.url }}{{ site.baseurl }}/courses/introduction_to_programming_in_R" onclick="location.href=this.href+scrt_name+scrt_name+'.R'; return false;" download target="_blank">Variables and Constants 2 .R</a>
-* <a href="{{ site.url }}{{ site.baseurl }}/courses/introduction_to_programming_in_R" onclick="location.href=this.href+scrt_name+scrt_name+'.Rmd'; return false;" download target="_blank">Variables and Constants 2 .Rmd</a>
+* <a href="{{ site.url }}{{ site.baseurl }}/courses/introduction_to_programming_in_R" onclick="location.href=this.href+scrt_name+scrt_name+'.R'; return false;" download target="_blank">Variables and Constants .R</a>
+* <a href="{{ site.url }}{{ site.baseurl }}/courses/introduction_to_programming_in_R" onclick="location.href=this.href+scrt_name+scrt_name+'.Rmd'; return false;" download target="_blank">Variables and Constants .Rmd</a>
 
 ---
 

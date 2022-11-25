@@ -1,9 +1,9 @@
----
+
 title: "Functions, loops and conditional statements"
 excerpt: "Learn how to use these in R"
 toc: true
 toc_sticky: true
----
+
 
 <script language="javascript" type="text/javascript">
 var scrt_name = "/03_CondLoopsFunc"; 
