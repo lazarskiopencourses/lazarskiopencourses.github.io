@@ -3,60 +3,6 @@
 ### 01 Variables and constants (part 1)
 ################################################################################
 
-# There are many online tutorials on how to install R and RStudio, you can start from here:
-# https://rstudio-education.github.io/hopr/starting.html
-
-### some useful keyboard shortcuts
-# CTRL+ENTER / CTRL+R: run instructions from the script (current line or marked part of code)
-# CTRL+L: clear console
-# CTRL+arrow up: list of recent commands
-# CTRL+1: switch to editor
-# CTRL+2: switch to console
-# for more - Alt+Shift+K
-
-##### Introduction #####
-
-# R is a popular programming language used for statistical computing and graphical presentation.
-# It is a great resource for data analysis, data visualization, data science and machine learning
-# It provides many statistical techniques (such as statistical tests, classification, clustering and data reduction)
-# It is easy to draw graphs in R, like pie charts, histograms, box plots, scatter plots, etc.
-# It works on different platforms (Windows, Mac, Linux)
-# It is open-source and free
-# It has a large community support
-# It has many packages (libraries of functions) that can be used to solve different problems
-
-### getting help
-help(sum)
-?sum
-# sometimes if ?function_name won't give you an answer it doesn't mean that this function does not exist
-# you can extend your search by typing ??function_name
-# ? searches in loaded packages, whereas ?? extends the search to the installed packages
-
-### working directory
-getwd() # get current working directory
-
-# setwd('...') # change current working directory
-# or click 'session' -> 'set working directory..'
-
-dir() # content of current working directory
-
-### packages
-
-# R packages are a collection of R functions, complied code and sample data.
-# They are stored under a directory called "library" in the R environment.
-# By default, R installs a set of packages during installation.
-# More packages are added later when they are needed for some specific purpose.
-# When we start the R console, only the default packages are available by default.
-# Other packages which are already installed have to be loaded explicitly to be used by the R program
-# that is going to use them.
-# https://www.tutorialspoint.com/r/r_packages.htm
-search() # installed packages
-install.packages('cowsay') # installing package named 'cowsay'
-library(cowsay) # loading package or with require(data.table)
-# main difference between library() and require() is that when the package is not installed
-# the former gives an error and the latter returns False
-require(plyr)
-
 ##### Basic maths operators and statistical functions #####
 
 ### assignment operation
@@ -102,7 +48,7 @@ a != b # not equal
 3 <= 5 | 10 > 20 # or
 3 <= 5 & 10 > 20 # and
 
-## some of the built-in functions
+### some of the built-in functions
 abs(-9)
 sqrt(25)
 sum(5, 2)
@@ -135,11 +81,6 @@ vec2 # vec2 created in the workspace
 # It is better to just consistently use '<-'
 
 
-### workspace
-ls() # content of workspace
-rm("x") # remove element from workspace
-rm(list = ls()) # remove whole content of workspace (which is ls())
-
 ##### Types of variables #####
 int <- 4L
 int
@@ -157,8 +98,6 @@ bool <- TRUE
 bool
 
 typeof(bool)
-# You can use interchangeably T and TRUE (or F and FASLE), but it's good practice to use the full form
-# e.g. you can assign different values to T or F, which can be confusing.
 
 ### strings
 
@@ -219,9 +158,7 @@ v4 <- c() # empty vector
 v5 <- 11:20
 v1 + v5
 
-# Since a vector must consist of elements of the same type, this function will try and coerce elements
-# to the same type if they are different.
-# Coercion is from lower to higher types from logical to integer to double to character.
+# Coercion is from lower to higher types from logical to integer to numeric to character.
 c(TRUE) # logical
 c(10, 20, TRUE) # integer (TRUE as 1)
 c(0.5, 10, 20, TRUE) # double
@@ -303,3 +240,27 @@ rep('LAZARSKI', 3)
 
 rep(0:1, times = 5)
 rep(0:1, each = 5)
+
+
+##### More about R and RStudio #####
+
+### getting help
+help(sum)
+?sum
+
+### working directory
+getwd() # get current working directory
+
+# setwd('...') # change current working directory
+# or click 'session' -> 'set working directory..'
+
+dir() # content of current working directory
+
+### packages
+
+search() # installed packages
+install.packages('cowsay') # installing package named 'cowsay'
+library(cowsay) # loading package or with require(cowsay)
+# main difference between library() and require() is that when the package is not installed
+# the former gives an error and the latter returns False
+require(plyr)
