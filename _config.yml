@@ -285,6 +285,9 @@ collections:
   programming_in_python:
     output: true
     permalink: /courses_in_english/:collection/:path/
+  programming_in_python_scripts:
+    output: true
+    permalink: /courses/programming_in_python/
   mathematics_for_economics:
     output: true
     permalink: /courses_in_english/:collection/:path/
