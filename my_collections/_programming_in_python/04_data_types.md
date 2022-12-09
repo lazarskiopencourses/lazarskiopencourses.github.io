@@ -19,6 +19,8 @@ Welcome to the next topic, which covers an overview of the most essential python
 
 <a href="{{ site.url }}{{ site.baseurl }}/courses/programming_in_python/04_data_types/scripts">Data types scripts</a>
 
+<a href="{{ '/courses/programming_in_python/04_data_types/scripts' | relative_url }}">Data types scripts</a>
+
 ---
 
 # 2. Videos
