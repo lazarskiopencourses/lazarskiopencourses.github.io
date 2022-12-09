@@ -303,9 +303,9 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
   - scope:
-      path: '/courses/'
+      path: /courses/
+  # _posts
   - scope:
       path: ""
       type: posts

@@ -17,7 +17,7 @@ Most of the examples discussed in markdowns are saved as a Python script. Exampl
 
 ## 1. Scripts
 
-<a href="{{ site.url }}{{ site.baseurl }}/courses/programming_in_python/01_advanced_functions/scripts">Advanced functions scripts</a>
+<a href="https://github.com/lazarskiopencourses/lazarskiopencourses.github.io/tree/master/courses/programming_in_python/01_advanced_functions/scripts/">Advanced functions scripts</a>
 
 In every module, this link will be attached only at the top of a page. In the case of exercises, this time to get points from them, you have to create your Python script (which can have any name) with a definition of a specific function and upload it on the gradescope.
 

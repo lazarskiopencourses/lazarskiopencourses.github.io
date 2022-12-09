@@ -20,7 +20,7 @@ In this module we will talk about strings and introduce regular expressions. But
 
 # 1. Scripts
 
-<a href="{{ site.url }}{{ site.baseurl }}/courses/programming_in_python/02_strings_and_reg_express/scripts">Strings and regular expressions scripts</a>
+<a href="https://github.com/lazarskiopencourses/lazarskiopencourses.github.io/tree/master/courses/programming_in_python/02_strings_and_reg_express/scripts/">Strings and regular expressions scripts</a>
 
 ---
 

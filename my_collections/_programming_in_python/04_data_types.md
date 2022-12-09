@@ -17,9 +17,7 @@ Welcome to the next topic, which covers an overview of the most essential python
 
 # 1. Scripts
 
-<a href="{{ site.url }}{{ site.baseurl }}/courses/programming_in_python/04_data_types/scripts">Data types scripts</a>
-
-<a href="{{ '/courses/programming_in_python/04_data_types/scripts' | relative_url }}">Data types scripts</a>
+<a href="https://github.com/lazarskiopencourses/lazarskiopencourses.github.io/tree/master/courses/programming_in_python/04_data_types/scripts/">Data types scripts</a>
 
 ---
 

@@ -17,7 +17,7 @@ In this module, we will talk about and compare four types of iterables: lists, d
 
 # 1. Scripts
 
-<a href="{{ site.url }}{{ site.baseurl }}/courses/programming_in_python/03_iterables/scripts">Iterables scripts</a>
+<a href="https://github.com/lazarskiopencourses/lazarskiopencourses.github.io/tree/master/courses/programming_in_python/03_iterables/scripts/">Iterables scripts</a>
 
 ---
 
