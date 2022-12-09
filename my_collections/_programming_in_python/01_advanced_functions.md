@@ -13,13 +13,15 @@ toc_sticky: true
 
 This course is divided into 6 modules. Each module contains a main markdown, as well as several videos. Videos are combined into playlists. To find and extend it, you have to click on the upper right corner of the frame with the first video. Depending on your preference, you can either watch the videos or read the markdown by yourself (you can also do both, it is entirely up to you).
 
-Most of the examples discussed in markdowns are saved as a Python script. Examples from this module can be found here:
+Most of the examples discussed in markdowns are saved as Python scripts. Examples from this module can be found here:
 
 ## 1. Scripts
 
 <a href="https://github.com/lazarskiopencourses/lazarskiopencourses.github.io/tree/master/courses/programming_in_python/01_advanced_functions/scripts/">Advanced functions scripts</a>
 
-In every module, this link will be attached only at the top of a page. In the case of exercises, this time to get points from them, you have to create your Python script (which can have any name) with a definition of a specific function and upload it on the gradescope.
+If you would like to download a particular script, you need to search for a folder of the correct section of this markdown, click on it and click on the proper script, click on `Raw`, click the right button on your mouse and look for `Save as`, making sure that the file will be saved with the `.py` extension. The second way is to copy the content of a particular file into your newly created Python script. The third way for people who know Git is to download our GitHub repository as a whole or only the `courses` folder with all published materials.
+
+In every module, this link will be attached only at the top of a page. In the case of exercises, this time to get points from them, you have to create your Python script (which can have any name) with a definition of a particular function (which has to be named in specified way) and upload it on the gradescope.
 
 Good luck!
 
