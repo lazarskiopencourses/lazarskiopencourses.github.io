@@ -100,21 +100,20 @@ The most important thing to remember from this section is that strings, lists an
 
 ## 3.1. EX. 1 (1 point)
 
-Define a function `is_iterable` which checks if a specific object is iterable, returning a relevant boolean. For example:
+Define a function `is_iter` which checks if a specific object is iterable, returning a relevant boolean. For example:
 
 ```py
->>> is_iterable([1, 2])
+>>> is_iter([1, 2])
 True
->>> is_iterable('abcd')
+>>> is_iter('abcd')
 True
->>> is_iterable(5)
+>>> is_iter(5)
 False
 ```
 
 The built-in function `dir` should be helpful. We talked about it during the last module. Good luck!
 
 ---
-
 ---
 
 # 4. Lists
