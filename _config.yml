@@ -133,6 +133,9 @@ author:
 footer:
   links:
     - label: ""
+      icon: "fab fa-fw fa-github fa-lg"
+      url: https://github.com/lazarskiopencourses/lazarskiopencourses.github.io
+    - label: ""
       icon: "fas fa-university fa-lg"
       url: https://www.lazarski.pl/
     - label: ""
@@ -147,9 +150,6 @@ footer:
     - label: ""
       icon: "fab fa-fw fa-twitter-square fa-lg"
       url: https://twitter.com/lazarskiuni_
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github fa-lg"
-      # url:
 
 atom_feed:
   hide: true
