@@ -5,6 +5,21 @@ toc: true
 toc_sticky: true
 ---
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
+
+<script>
+  var config = {
+      startOnLoad:true,
+      theme: 'forest',
+      flowchart:{
+              useMaxWidth:false,
+              htmlLabels:true
+          }
+  };
+  mermaid.initialize(config);
+  window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+</script>
+
 ---
 
 Welcome to the next topic, which covers an overview of the most essential python data types.
@@ -685,17 +700,13 @@ We compared only lists and tuples since sets are not subscriptable. Again, lists
 
 Based on the results of benchmarks and results from my computer, we propose you the following way of choosing a particular data type to store some objects.
 
-<p align="center">
-
-```mermaid
+<div align="center" class="mermaid">
 graph TD;
     A[Do you need immutability?]--No-->B[Do you need a sequence?];
     A--Yes-->C[Use tuples];
     B--No-->E[Use sets];
     B--Yes-->D[Use lists];
-```
-
-</p>
+</div>
 
 Why would you need immutability? For example, to prevent the situation when you accidentally modify the content of a particular object. If you are sure that it will not happen, sets or lists should be more efficient to use. We could extend this graph by adding to the right side the same question `Do you need a sequence?` and append a `frozenset` type of object, but we didn't cover it. The winners of a particular competition (it may be different on your machine):
 
