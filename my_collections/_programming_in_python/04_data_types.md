@@ -4,9 +4,6 @@ excerpt: "How many data types Python has got?"
 toc: true
 toc_sticky: true
 ---
-<script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
-
-<script>addBackToTop()</script>
 
 ---
 
@@ -707,6 +704,7 @@ Why would you need immutability? For example, to prevent the situation when you 
 | Tuples       | Lists     | Sets            | Tuples        | Lists     |
 
 ---
+
 ---
 
 # 9. Immutable vs. mutable summary

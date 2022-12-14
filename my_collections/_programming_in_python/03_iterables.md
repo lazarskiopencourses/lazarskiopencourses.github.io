@@ -4,9 +4,6 @@ excerpt: "Module about iterables"
 toc: true
 toc_sticky: true
 ---
-<script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
-
-<script>addBackToTop()</script>
 
 ---
 
@@ -44,10 +41,9 @@ Make sure that you have watched all the videos from this playlist!
 - re pattern matching.
 
 ---
-
 ---
 
-# 3. Iterables
+# 3. Iterbales
 
 We should know already that an iterable is an object which can be used with loops. We covered this topic during the [Loops and iterables](https://lazarskiopencourses.github.io/courses_in_english/introduction_to_programming_in_python/04_loops_and_iterables/) module from Introduction to Programming in Python course. Basically an iterable is an object where you can go through its elements one by one. Just as you can go through e.g. members of a football team and, for instance, count them.
 
@@ -98,7 +94,9 @@ The most important thing to remember from this section is that strings, lists an
 
 ---
 
-## 3.1. EX. 1 (1 point)
+## 3.1. EX. 1 (1 point) 
+
+$$\begin{equation}\text{Exercise}\end{equation}$$
 
 Define a function `is_iter` which checks if a specific object is iterable, returning a relevant boolean. For example:
 
@@ -491,7 +489,7 @@ Again, we have prepared an exercise which you can use to test your knowledge abo
 
 ---
 
-## 5.2. EX.2 (1 point)
+## 5.2. EX. 3 (1 point)
 
 Define a function called `mapping` that expects one argument of type `list` and returns a dictionary. The `keys` should be equal to the following numbers from the list and the `values` should be equal to the value of a polynomial $W(x) = 2x^3 + 4x -7$ where `x` is a respective `key`. For example:
 
@@ -759,7 +757,7 @@ And that is why we cannot consider them as a sequence (i.e. there is no order of
   ```python
     ranges.clear()
   ```
-- concatenation of sets $\text{A}\cup\text{B}=\{x: x\in \text{A}\lor x\in \text{B}\}$
+- concatenation of sets $\text{A}\cup\text{B}=\\{x: x\in \text{A}\lor x\in \text{B}\\}$
 
   ```python
     >>> switzerland_neighbors = {'France', 'Italy', 'Liechtenstein', 'Germany', 'Austria'}
@@ -767,7 +765,7 @@ And that is why we cannot consider them as a sequence (i.e. there is no order of
     >>> switzerland_neighbors.union(austria_neighbors) 
     {'Italy', 'Czechia', 'Austria', 'Switzerland', 'Slovakia', 'France', 'Liechtenstein', 'Hungary', 'Slovenia', 'Germany' # or austria_neighbors.union(switzerland_neighbors)
   ```
-- intersection of sets $\text{A}\cap\text{B}=\{x: x\in \text{A}\wedge x\in \text{B}\}$
+- intersection of sets $\text{A}\cap\text{B}=\\{x: x\in \text{A}\wedge x\in \text{B}\\}$
 
   ```python
     >>> switzerland_neighbors.intersection(austria_neighbors) 
@@ -775,26 +773,26 @@ And that is why we cannot consider them as a sequence (i.e. there is no order of
   ```
 - difference
 
-  - $\text{A}\setminus\text{B}=\{x: x\in \text{A}\wedge x\not\in \text{B}\}$
+  - $\text{A}\setminus\text{B}=\\{x: x\in \text{A}\wedge x\not\in \text{B}\\}$
 
   ```python
     >>> switzerland_neighbors - austria_neighbors
     {'Austria', 'France'} # or switzerland_neighbors.difference(austria_neighbors)
   ```
 
-  - $\text{B}\setminus\text{A}=\{x: x\not\in \text{A}\wedge x\in \text{B}\}$
+  - $\text{B}\setminus\text{A}=\\{x: x\not\in \text{A}\wedge x\in \text{B}\\}$
 
   ```python
     >>> austria_neighbors - switzerland_neighbors
     {'Czechia', 'Switzerland', 'Slovakia', 'Hungary', 'Slovenia'} # or austria_neighbors.difference(switzerland_neighbors)
   ```
-- symmetric difference $\text{A}\Delta\text{B}=\{x: \left(x\in \text{A}\wedge x\not\in \text{B}\right)\lor \left(x\not\in \text{A}\wedge x\in \text{B}\right)\}$
+- symmetric difference $\text{A}\Delta\text{B}=\\{x: \left(x\in \text{A}\wedge x\not\in \text{B}\right)\lor \left(x\not\in \text{A}\wedge x\in \text{B}\right)\\}$
 
   ```python
     >>> switzerland_neighbors.symmetric_difference(austria_neighbors)  
     {'Czechia', 'Austria', 'Switzerland', 'Slovakia', 'France', 'Hungary', 'Slovenia'}
   ```
-- checking if one set is a subset of the other $\text{A}\overset{?}{\sub}\text{B}$
+- checking if one set is a subset of the other $\text{A}\overset{?}{\subset}\text{B}$
 
   ```python
     >>> european_union_countries = {'Austria', 'Belgium', 'Bulgaria', 'Croatia', 'Cyprus', 'Czechia', 'Denmark', 'Estonia', 'Finland', 'France', 'Germany', 'Greece', 'Hungary', 'Ireland', 'Italy', 'Latvia', 'Lithuania', 'Luxembourg', 'Malta', 'Netherlands', 'Poland', 'Portugal', 'Romania', 'Slovakia', 'Slovenia', 'Spain', 'Sweden'}
@@ -832,7 +830,7 @@ There is also a data type called `frozenset`, and as you may guess, this is an i
 
 # 8. EXERCISES
 
-## 8.1. EX.3 (4 points)
+## 8.1. EX. 4 (4 points)
 
 All-time battle: The Rolling Stones vs. AC/DC.
 
@@ -840,7 +838,7 @@ Your aim is to create an analytical tool that will allow you to prepare an argum
 
 ---
 
-### 8.1.1. EX.3 a) (1 point)
+### 8.1.1. EX. 4 a) (1 point)
 
 Write a function `clean` that expects a list filled with strings. This function returns a list with cleaned strings without characters like `':', ';', '!', '?', '.', ',', '\n', '"', '-', '*',"'",'(',')'`, as well as all letters modified to lowercase. For example:
 
@@ -851,7 +849,7 @@ Write a function `clean` that expects a list filled with strings. This function 
 
 ---
 
-### 8.1.2. EX.3 b) (1 point)
+### 8.1.2. EX. 4 b) (1 point)
 
 Write a function `split` which expects a list filled with strings. This function returns a list with separated words from each line of lyrics. For example:
 
@@ -862,7 +860,7 @@ Write a function `split` which expects a list filled with strings. This function
 
 ---
 
-### 8.1.3. EX.3 c) (1 point)
+### 8.1.3. EX. 4 c) (1 point)
 
 Write a function `get_unique` that expects a list filled with strings. This function returns a list without duplicates. For example:
 
@@ -873,7 +871,7 @@ Write a function `get_unique` that expects a list filled with strings. This func
 
 ---
 
-### 8.1.4. EX.3 d) (1 point)
+### 8.1.4. EX. 4 d) (1 point)
 
 Write a function `process_lyrics` that expects a list filled with strings. This function returns a number of unique words in the given list. This function should use all three functions that you have defined so far.
 
@@ -903,7 +901,7 @@ Please create one script with all of these functions (each definition will be ev
 
 ---
 
-## 8.2. EX.4 (1 point)
+## 8.2. EX. 5 (1 point)
 
 Write a function `frequency` that expects a `list` of anything as an argument and returns dictionary with unique elements as keys and the number of them as items. For example:
 
@@ -918,7 +916,7 @@ Good luck!
 
 ---
 
-## 8.3. EX.5 (1 point)
+## 8.3. EX. 6 (1 point)
 
 Define a function called `find_keys(dict_to_search, val)` which expects two arguments: dictionary and some object `val`. The aim of this function is to find keys whose value is equal to `val` and return a list with these keys. For example:
 
