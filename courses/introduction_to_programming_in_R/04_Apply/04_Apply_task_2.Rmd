@@ -1,0 +1,104 @@
+---
+title: "04 Apply family functions - task 2"
+output: html_document
+---
+
+<!--
+# ASSIGNMENT CONFIG
+init_cell: false
+export_cell: false
+generate:
+    show_stdout: true
+    show_hidden: false
+-->
+
+
+<!--
+# BEGIN QUESTION
+name: q2
+manual: false
+points:
+    - 3
+    - 1
+-->
+
+**Question 2:** Create a function `CheckSize()` that takes as input any list and returns:
+* string `List is empty` if the input is an empty list
+if not, a list (of the same length as an input list), each element of which is either:
+* string `Object is too small` if a length of a given element is smaller than 2
+* string `Object is too large` if a length of a given element is greater than 5
+* element itself otherwise
+
+Let's see some examples:
+`list()` should return `List is empty`
+`list(4, 1:5, matrix(1:4, 2, 2), 'I like R', matrix(1:16, 4, 4), c('L', 'A', 'Z', 'A', 'R', 'S', 'K', 'I'))` should return
+`[[1]]`
+`[1] "Object is too small"`
+
+`[[2]]`
+`[1] 1 2 3 4 5`
+
+`[[3]]`
+`     [,1] [,2]`
+`[1,]    1    3`
+`[2,]    2    4`
+
+`[[4]]`
+`[1] "Object is too small"`
+
+`[[5]]`
+`[1] "Object is too large"`
+
+`[[6]]`
+`[1] "Object is too large"`
+
+<!-- # BEGIN SOLUTION -->
+
+```{r}
+# BEGIN SOLUTION NO PROMPT
+AuxFun <- function(elem){
+  if (length(elem) < 2) {'Object is too small'}
+  else if (length(elem) < 6) {elem}
+  else {'Object is too large'}
+}
+
+CheckSize <- function(my_list){
+  if (length(my_list) == 0) return('List is empty')
+  return(lapply(my_list, AuxFun))
+}
+# END SOLUTION
+# YOUR CODE HERE
+# END PROMPT
+```
+
+<!-- # END SOLUTION -->
+
+<!-- # BEGIN TESTS -->
+
+
+```{r}
+# HIDDEN
+list1 <- list(22, 1:3, matrix(1:64, 8, 8), 'I like R', matrix(1:3, 3, 1), c('L', 'A', 'Z', 'A', 'R', 'S', 'K', 'I'))
+testthat::expect_true(all(CheckSize(list1)[[1]] == 'Object is too small'))
+testthat::expect_true(all(CheckSize(list1)[[2]] == 1:3))
+testthat::expect_true(all(CheckSize(list1)[[3]] == 'Object is too large'))
+testthat::expect_true(all(CheckSize(list1)[[4]] == 'Object is too small'))
+testthat::expect_true(all(CheckSize(list1)[[5]] == matrix(1:3, 3, 1)))
+testthat::expect_true(all(CheckSize(list1)[[6]] == 'Object is too large'))
+testthat::expect_true(typeof(CheckSize(list1)[[1]]) == 'character')
+testthat::expect_true(typeof(CheckSize(list1)[[2]]) == 'integer')
+testthat::expect_true(typeof(CheckSize(list1)[[3]]) == 'character')
+testthat::expect_true(typeof(CheckSize(list1)[[4]]) == 'character')
+testthat::expect_true(typeof(CheckSize(list1)[[5]]) == 'integer')
+testthat::expect_true(typeof(CheckSize(list1)[[6]]) == 'character')
+```
+
+```{r}
+# HIDDEN
+list2 <- list()
+testthat::expect_true(CheckSize(list2) == 'List is empty')
+testthat::expect_true(typeof(CheckSize(list2)) == 'character')
+```
+<!-- # END TESTS -->
+
+<!-- # END QUESTION -->
