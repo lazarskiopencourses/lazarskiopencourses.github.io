@@ -1,0 +1,61 @@
+---
+title: "04 Apply family functions - task 3"
+output: html_document
+---
+
+<!--
+# ASSIGNMENT CONFIG
+init_cell: false
+export_cell: false
+generate:
+    show_stdout: true
+    show_hidden: false
+-->
+
+
+<!--
+# BEGIN QUESTION
+name: q3
+manual: false
+points:
+    - 4
+-->
+
+**Question 3:** Create a function `SepNumWithLet()` that receives as an input 2 arguments, that are numeric vectors. Assume that these vectors are of the same length `n`, where `0 < n <= 26`. (You don't need to hardcode these constraints, just assume that the input arguments satisfy these conditions).
+This function should return the character vector that pastes two numeric vectors with the separator of the first `n` lower-case letters in the alphabet as follows: If the first input argument is `vec1 = c(vec11, vec12, ..., vec1n)` and the second one is `vec2 = c(vec21, vec22, ..., vec2n)`, then the output should be `"vec11avec21", "vec12bvec22", ..., "vec1nnvec2n"`.
+
+Let's see some examples:
+`SepNumWithLet(c(1, 2, 3), c(10, 20, 50))` should return `"1a10", "2b20", "3c50"`.
+`SepNumWithLet(rep(3, 5), 5:9` should return `"3a5", "3b6", "3c7", "3d8", "3e9"`.
+
+Hints:
+* Use the multivariate version of apply `mapply()`.
+* To extract letters you can use `letters` constant already defined in R.
+
+<!-- # BEGIN SOLUTION -->
+
+```{r}
+# BEGIN SOLUTION NO PROMPT
+SepNumWithLet <- function(vec1, vec2){
+  len_vec <- length(vec1)
+  return(mapply(paste, vec1, vec2, sep=letters[1:len_vec]))
+}
+# END SOLUTION
+# YOUR CODE HERE
+# END PROMPT
+```
+
+<!-- # END SOLUTION -->
+
+<!-- # BEGIN TESTS -->
+
+
+```{r}
+# HIDDEN
+testthat::expect_true(all(SepNumWithLet(c(3, 8), c(2, 4)) == c("3a2", "8b4")))
+testthat::expect_true(all(SepNumWithLet(rep(5, 5), 1:5) == c("5a1", "5b2", "5c3", "5d4", "5e5")))
+```
+
+<!-- # END TESTS -->
+
+<!-- # END QUESTION -->
