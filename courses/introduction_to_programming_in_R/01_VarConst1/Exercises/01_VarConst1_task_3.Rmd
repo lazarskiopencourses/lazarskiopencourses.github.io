@@ -1,8 +1,3 @@
----
-title: "01 Variables and constants (part 1) - task 3"
-output: html_document
----
-
 **Question 3:** The function cumprod(v) produces a vector of cumulative products of the elements of a numerical vector v. For example,
 
 cumprod(c(2,3,4,7)) 

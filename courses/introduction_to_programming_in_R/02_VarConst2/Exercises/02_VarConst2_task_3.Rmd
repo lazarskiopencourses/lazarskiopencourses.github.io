@@ -1,8 +1,3 @@
----
-title: "02 Variables and constants (part 2) - task 3"
-output: html_document
----
-
 **Question 3:** 1. Create two data frames `my.df1` and `my.df2` as:
 `my.df1`:
 `1	24`

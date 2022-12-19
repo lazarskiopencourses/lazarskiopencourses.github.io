@@ -1,8 +1,3 @@
----
-title: "03 Conditional statements, loops and functions - task 3"
-output: html_document
----
-
 **Question 3:** Write a function `F()` that takes input variable (numeric value) `n` and calculates the following:
         5n + 3 if n is a multiple of 3
 F(n) =  8n + 3 if n has remainder 1 upon division by 3

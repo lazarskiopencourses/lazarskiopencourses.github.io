@@ -1,9 +1,3 @@
----
-title: "CondLoopsFunc"
-output: html_document
----
-
-
 # Introduction
 Today, we will cover some of the fundamental building blocks of programming in R, including logical operators, conditional statements, loops, and functions.
 

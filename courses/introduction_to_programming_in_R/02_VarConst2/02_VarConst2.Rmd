@@ -1,9 +1,3 @@
----
-title: "VarConst1"
-output: html_document
----
-
-
 # Introduction
 
 Last time you learned about vectors, among other things. This time we'll spend more time on other data objects in R - matrices, lists, and data frames.

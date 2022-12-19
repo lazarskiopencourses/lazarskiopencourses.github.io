@@ -9,9 +9,6 @@ toc_sticky: true
 var scrt_name = "/01_VarConst1"; 
 </script>
 
-<script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
-<script>addBackToTop()</script>
-
 ---
 ---
 
