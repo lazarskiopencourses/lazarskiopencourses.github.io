@@ -94,7 +94,7 @@ b <- -(1:3)
 ifelse(my_var < 0, a, b)
 
 
-# Similar to python, the elif statement, short for else if or “otherwise if”,
+# Similar to python, the else if or “otherwise if”,
 # is added to the if-else block when there are many more conditions.
 # The if-elif-else statement basically consists of several blocks.
 

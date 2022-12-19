@@ -1,8 +1,3 @@
----
-title: "01 Variables and constants (part 1) - task 2"
-output: html_document
----
-
 **Question 2:** Create a variable `my_seq` which will consist of the sequence of integer numbers from 0 to 1000 (0, 1, ..., 999, 1000)
 Then create variable `every_seventh` which will be a vector of an every seventh element of a given `my_seq` vector, so (0, 7, 14, ..., 994)
 Create a boolean vector `is_div_five`, with TRUE indicating that a given element of a vector `every_seventh` is divisable by five, and FALSE otherwise (`%in%` operator may be useful). This vector should be of the same length as vector `every_seventh`.

@@ -1,8 +1,3 @@
----
-title: "02 Variables and constants (part 2) - task 2"
-output: html_document
----
-
 **Question 2:** Create a dataframe named `data` with the following records:
 * `car` = nissan, audi, bmw
 * `owner` = Jane, John, Hodor

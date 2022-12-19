@@ -1,9 +1,3 @@
----
-title: "VarConst1"
-output: html_document
----
-
-
 # Introduction
 
 R is a popular programming language used for statistical computing and graphical presentation. It is widely used and valued because:

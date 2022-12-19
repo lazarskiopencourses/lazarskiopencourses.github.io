@@ -1,0 +1,8 @@
+**Question 1:** Create a function `CountRowProds()` that can take as input any (non-empty) matrix and returns the vector of a product for every row, e.g. for the matrix
+`[1, 3]`
+`[2, 4]`
+the function should return a numeric vector `(3, 8)`.
+
+```{r}
+# YOUR CODE HERE
+```
