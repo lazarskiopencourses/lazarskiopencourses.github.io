@@ -1,0 +1,29 @@
+---
+title: "05 Data manipulation - task 3"
+output: html_document
+---
+
+```{r}
+library(dplyr)
+```
+
+**Question 3:** You have been given the `mtcars` dataset, which contains data on different car models and their characteristics. Your task is to use the `dplyr` package to:
+* Group the data by the number of cylinders (`cyl`) and the transmission type (`am`).
+* Calculate the average horsepower (`hp`) and the average miles per gallon (`mpg`) for each group. Name the variables `mean_hp` and `mean_mpg`, respectively.
+* Select only the groups where the average horsepower (`mean_hp`) is greater than `150` and the average miles per gallon (`mean_mpg`) is less than `20`.
+* Sort the groups by the average horsepower (`mean_hp`) in ascending order.
+
+The resulting data frame (name it `output`) should have four columns: `cyl`, `am`, `mean_hp`, and `mean_mpg`.
+
+Hints:
+* `group_by()` and `summarize()` may be useful.
+* You can use the pipe `%>%` operator.
+
+```{r}
+# YOUR CODE HERE
+output <- mtcars %>%
+  group_by(cyl, am) %>%
+  summarize(mean_hp = mean(hp), mean_mpg = mean(mpg)) %>%
+  filter(mean_hp > 150 & mean_mpg > 20) %>%
+  arrange(mean_hp)
+```
