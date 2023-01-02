@@ -21,9 +21,4 @@ Hints:
 
 ```{r}
 # YOUR CODE HERE
-output <- mtcars %>%
-  group_by(cyl, am) %>%
-  summarize(mean_hp = mean(hp), mean_mpg = mean(mpg)) %>%
-  filter(mean_hp > 150 & mean_mpg > 20) %>%
-  arrange(mean_hp)
 ```

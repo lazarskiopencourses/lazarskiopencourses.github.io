@@ -20,8 +20,4 @@ Hints:
 
 ```{r}
 # YOUR CODE HERE
-output <- mtcars %>% 
-  select(mpg, cyl, disp) %>%
-  filter(cyl > 6) %>% 
-  arrange(desc(mpg))
 ```

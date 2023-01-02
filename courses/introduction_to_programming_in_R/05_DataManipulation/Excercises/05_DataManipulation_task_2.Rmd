@@ -19,7 +19,4 @@ Hints:
 
 ```{r}
 # YOUR CODE HERE
-output <- mtcars %>%
-  group_by(cyl) %>%
-  summarize(min_hp = min(hp), max_hp = max(hp))
 ```
