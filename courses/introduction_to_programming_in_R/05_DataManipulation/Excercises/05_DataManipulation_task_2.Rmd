@@ -1,0 +1,17 @@
+```{r}
+library(dplyr)
+```
+
+**Question 2:** You have been given the `mtcars` dataset, which contains data on different car models and their characteristics. Your task is to use the `dplyr` package to group the data by the number of cylinders (`cyl`) and calculate the minimum and maximum horsepower (`hp`) for each group. Assign these results to the `min_hp` and `max_hp` variables, respectively. The whole output should be stored in the `output` variable, which should look like this:
+cyl min_hp max_hp
+ 4     x      x
+ 6     x      x
+ 8     x      x
+
+Hints:
+* `group_by()` and `summarize()` may be useful.
+* You can use the pipe `%>%` operator.
+
+```{r}
+# YOUR CODE HERE
+```

@@ -1,0 +1,18 @@
+```{r}
+library(dplyr)
+```
+
+**Question 1:** You have been given the built-in `mtcars` dataset, which contains data on different car models and their characteristics. Your task is to use the `dplyr` package to perform the following consecutive operations on the `mtcars` dataset:
+* Select only the `mpg`, `cyl`, and `disp` columns (in this order).
+* Filter the rows to keep only those where the number of cylinders (`cyl`) is greater than `6`.
+* Sort the rows by the values in `mpg` in descending order,
+and assign the result to the `output` variable.
+
+Hints:
+* You can use the pipe `%>%` operator.
+* To load package remember to use `library(package_name)`.
+
+
+```{r}
+# YOUR CODE HERE
+```
