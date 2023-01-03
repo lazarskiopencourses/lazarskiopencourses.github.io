@@ -59,11 +59,11 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
-search                   : # true, false (default)
-search_full_content      : # true, false (default)
+search                   : true
+search_full_content      : true
 search_provider          : # lunr (default), algolia, google
 lunr:
-  search_within_pages    : # true, false (default)
+  search_within_pages    : true
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -133,6 +133,9 @@ author:
 footer:
   links:
     - label: ""
+      icon: "fab fa-fw fa-github fa-lg"
+      url: https://github.com/lazarskiopencourses/lazarskiopencourses.github.io
+    - label: ""
       icon: "fas fa-university fa-lg"
       url: https://www.lazarski.pl/
     - label: ""
@@ -147,9 +150,6 @@ footer:
     - label: ""
       icon: "fab fa-fw fa-twitter-square fa-lg"
       url: https://twitter.com/lazarskiuni_
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github fa-lg"
-      # url:
 
 atom_feed:
   hide: true

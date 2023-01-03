@@ -8,7 +8,7 @@ toc_sticky: true
 <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
 <script>addBackToTop()</script>
 
-A pdf file with all exercises can be found [here](https://github.com/lazarskiopencourses/lazarskiopencourses.github.io/blob/master/courses/mathematics_for_economics/exercises.pdf)).
+Exercises for this chapter: <a href="https://lazarskiopencourses.github.io/courses/mathematics_for_data_science/derivatives.pdf" target="_blank">PDF.</a>
 
 # One variable derivatives
 

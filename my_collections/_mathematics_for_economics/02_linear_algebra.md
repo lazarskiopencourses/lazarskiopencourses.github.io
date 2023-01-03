@@ -8,7 +8,7 @@ toc_sticky: true
 <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
 <script>addBackToTop()</script>
 
-Exercises for this chapter can be found <a href="https://lazarskiopencourses.github.io/courses/mathematics_for_economics/linear_algebra.pdf" target="_blank">here</a>.
+Exercises for this chapter can be found <a href="https://lazarskiopencourses.github.io/courses/mathematics_for_data_science/linear_algebra.pdf" target="_blank">here</a>.
 
 # Operations on Matrices
 
