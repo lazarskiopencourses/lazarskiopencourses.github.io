@@ -256,6 +256,26 @@ my_vec5 <- my_vec > 8
 print(my_vec5)
 ```
 
+### Sequences
+
+The `seq()` function is used to generate a sequence of numbers. The basic syntax of the `seq()` function is `seq(from, to, by)`, where `from`, `to` and `by` specify the starting number of the sequence, the ending number of the sequence and the increment between numbers in the sequence, respectively. If `by` is not specified, then the sequence is increasing or decreasing by `1`. For instance, to generate a sequence of numbers from `1` to `10`:
+```{r}
+vec_x <- seq(from=1, to=10)
+print(vec_x)
+```
+
+Generate a sequence of numbers from `1` to `10` with an increment of `2`:
+```{r}
+vec_x <- seq(1, 10, by = 2)
+print(vec_x)
+```
+
+Generate a sequence of numbers from `10` to `1` with a decrement of `1`:
+```{r}
+vec_x <- seq(10, 1)
+print(vec_x)
+```
+
 ### Coercion
 
 Since a vector must consist of elements of the same type, this function will try and coerce elements to the same type if they are different. Coercion is from lower to higher types from `logical` to `integer` to `numeric` to `character`.
