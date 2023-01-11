@@ -1,7 +1,7 @@
 **Question 3:** The function cumprod(v) produces a vector of cumulative products of the elements of a numerical vector v. For example,
 
 cumprod(c(2,3,4,7)) 
-[1] 2 6 30 180
+[1] 2 6 24 168
 
 Use this function to calculate to 4 decimal places the value of the following expression:
 `(1/2) + (1/2 * 3/4) + (1/2 * 3/4 * 5/6) + (1/2 * 3/4 * 5/6 * 7/8) + ... + (1/2 * 3/4 * 5/6 * 7/8 * ... * 99/100)`
