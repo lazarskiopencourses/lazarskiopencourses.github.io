@@ -16,7 +16,7 @@ with column names: `id` (numeric), `age` (numeric) for `my.df1` and `id` (numeri
 
 Merge `my.df1` and `my.df2` by their `id` column and assign the result to `merged.df` variable. Disregard rows without full information. Type `?merge` in the console for help.
 
-Order whole `merged.df` dataframe by decreasing age. Assign this dataframe to `by_age.df`. Checking `?order` may be useful.
+Order the whole `merged.df` dataframe by increasing age. Assign this dataframe to `by_age.df`. Checking `?order` may be useful.
 
 ```{r}
 # YOUR CODE HERE
