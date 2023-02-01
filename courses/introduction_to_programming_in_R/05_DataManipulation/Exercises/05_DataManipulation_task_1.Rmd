@@ -10,8 +10,7 @@ and assign the result to the `output` variable.
 
 Hints:
 * You can use the pipe `%>%` operator.
-* To load package remember to use `library(package_name)`.
-
+* Package dplyr is loaded in the previous chunk, so there is no need to repeat this action.
 
 ```{r}
 # YOUR CODE HERE
