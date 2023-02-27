@@ -750,11 +750,11 @@ Define a function called `intersection`, which takes an arbitrary number of sets
 >>> intersection({'dog', 'cat', 'lion'}, {'cat', 'lizard', 'dog', 'giraffe'}, {'monkey', 'hippo', 'dog', 2, 'cat'})
 {'dog', 'cat'} # or {'cat', 'dog'}
 >>> intersection()
-{}
+set()
 >>> intersection({2.72, 1.62})
 {1.62, 2.72} # or {2.72, 1.62}
 >>> intersection({1,2,3}, {5,6,7})
-{}
+set()
 ```
 
 Good luck!
