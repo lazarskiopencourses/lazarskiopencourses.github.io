@@ -1,32 +1,42 @@
-**Question 2:** Create a function `CheckSize()` that takes as input any list and returns:
-* string `List is empty` if the input is an empty list
-if not, a list (of the same length as an input list), each element of which is either:
-* string `Object is too small` if a length of a given element is smaller than 2
-* string `Object is too large` if a length of a given element is greater than 5
-* element itself otherwise
+**Question 2:** Create a function `CheckSize()` that takes as input any
+list and returns the string `List is empty` if the input is an empty
+list. If not, a list (of the same length as an input list), each element
+of which is either:
+
+-   string `Object is too small` if the length of a given element is
+    smaller than 2,
+-   string `Object is too large` if the length of a given element is
+    greater than 5,
+-   element itself otherwise.
 
 Let's see some examples:
-`list()` should return `List is empty`
-`list(4, 1:5, matrix(1:4, 2, 2), 'I like R', matrix(1:16, 4, 4), c('L', 'A', 'Z', 'A', 'R', 'S', 'K', 'I'))` should return
-`[[1]]`
-`[1] "Object is too small"`
 
-`[[2]]`
-`[1] 1 2 3 4 5`
+1.  
 
-`[[3]]`
-`     [,1] [,2]`
-`[1,]    1    3`
-`[2,]    2    4`
+```
+> CheckSize(list())
+`List is empty`
+```
 
-`[[4]]`
-`[1] "Object is too small"`
+2.  
 
-`[[5]]`
-`[1] "Object is too large"`
+```
+> input = list(4, 1:5, matrix(1:4, 2, 2), 'I like R', matrix(1:16, 4, 4), c('L', 'A', 'Z', 'A', 'R', 'S', 'K', 'I'))
+> CheckSize(input)
 
-`[[6]]`
-`[1] "Object is too large"`
+[[1]][1] "Object is too small"
+
+[[2]] `[1] 1 2 3 4 5`
+
+[[3]] [,1] [,2] [1,] 1 3 [2,] 2 4\`
+
+[[4]] [1] "Object is too small"
+
+[[5]] [1] "Object is too large"
+
+[[6]] [1] "Object is too large"
+```
+
 
 ```{r}
 # YOUR CODE HERE
