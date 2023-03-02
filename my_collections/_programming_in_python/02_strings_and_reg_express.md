@@ -813,24 +813,7 @@ Good luck! Check that most likely your function works correctly also with differ
 
 ---
 
-## 13.2. EX. 4 (0.5 points)
-
-Code a function `last_char`, which takes string as an argument and returns the last character of it. You are not allowed to use the `[-1]` index. Examples:
-
-```py
->>> last_char('dog')
-'g'
->>> last_char('')
-''
->>> last_char('lazarski')
-'i'
-```
-
-Good luck!
-
----
-
-## 13.3. EX. 5 (1 point)
+## 13.2. EX. 4 (1 point)
 
 Code a function `word_backwards`, which takes string as an argument and returns it in a reverse order. Examples:
 
@@ -847,7 +830,7 @@ Good luck!
 
 ---
 
-## 13.4. EX. 6 (1 point)
+## 13.3. EX. 5 (1 point)
 
 Code a function `abbreviation`, which will create an abbreviation of words provided in a list. The function returns the first and the last character of the word as well as its length in a list. Examples:
 
@@ -862,7 +845,7 @@ Code a function `abbreviation`, which will create an abbreviation of words provi
 
 ---
 
-## 13.5. EX. 7 (1 point)
+## 13.4. EX. 6 (1 point)
 
 Imagine that you are working with some software which is doing some repeatable operations. For example, let it be an ATM, which checks if the card is ok, then asks for the PIN code and finally asks for the amount to withdraw. Such an operation in a database may look like this `transaction_nr ='card_number, PIN_code, amount_to_withdraw'`, where `transaction_nr` is a string. Your task is to code a function `how_much(transaction_nr)`, which will return the `money_to_withdraw` equal to `amount_to_withdraw` which will be an integer. Examples:
 
@@ -877,7 +860,7 @@ Good luck!
 
 ---
 
-## 13.6. EX. 8 (1 point)
+## 13.5. EX. 7 (1 point)
 
 Code a `make_xX` function, which takes string as an argument and modifies all characters (Latin alphabet letters) to x or X depending on if it was a lowercased or capitalized letter. Other characters should not be modified. This function returns a string with the correct characters corresponding to the pattern. Examples:
 
@@ -894,7 +877,7 @@ The re package may be helpful. Good luck!
 
 ---
 
-## 13.7. EX. 9 (1 point)
+## 13.6. EX. 8 (1 point)
 
 Define a function called `get_words`, which takes a string as an argument and returns a list with words from it. For this task, we consider words as a sequence of at least two characters which are either a letter, number or underscore. Examples:
 
@@ -909,7 +892,7 @@ It is necessary to use re package for this exercise. Good luck!
 
 ---
 
-## 13.8. EX. 10 (1 point)
+## 13.7. EX. 9 (1 point)
 
 Define a function called `get_words_with_letter`, which takes two arguments, a string with text and a string with some character. It returns a list with all the words from the text, which consists a provided letter. Examples:
 
@@ -926,7 +909,7 @@ It is necessary to use re package for this exercise. Good luck!
 
 ---
 
-## 13.9. EX. 11 (3 points)
+## 13.8. EX. 10 (3 points)
 
 > [PESEL](https://en.wikipedia.org/wiki/PESEL) is the national identification number used in Poland since 1979. The number is 11 digits long, identifies exactly one person, and cannot be changed once assigned, except in specific situations (such as gender reassignment).
 
